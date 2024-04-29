@@ -1,0 +1,141 @@
+/*Попап на заявку*/
+.hasError::placeholder
+{
+    color: red !important;
+}
+
+.hasError
+{
+    background: #F0FFF0;
+    border: 1px red solid;
+    color: red !important;
+    box-shadow: 0px 0px 10px 1px red;
+}
+
+.hide
+{
+	display: none !important;
+}
+
+.show
+{
+	display: block !important;
+}
+
+.send_order
+{
+	background: #1e1e1e;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+.send_order .pop-up-form
+{
+	position: relative;
+	max-width: 685px;
+    width: 100%;
+    margin: 0 auto;
+	background: #ffffff;
+	border-radius: 20px;
+	padding: 80px 50px;
+	max-height: 90vh;
+    overflow-y: auto;
+}
+
+.send_order #pop-up-title
+{
+	font-size: 35px;
+	text-align: center;
+}
+
+.send_order .upper-text
+{
+	font-size: 24px;
+	text-align: center;
+	margin: 25px auto 52px auto;
+	width: 90%;
+}
+
+.send_order input
+{
+	width: 100%;
+	height: 70px;
+	margin-bottom: 30px;
+	font-size: 24px;
+	padding: 0 35px;
+	border-radius: 10px;
+	border: 1px solid #e8e8e8;
+}
+
+.send_order button
+{
+	margin: 0 auto;
+	border-radius: 10px;
+	background: linear-gradient(to left, #34a5b6, #2ec0bf);
+	color: white;
+	border: none;
+	transition: background 0.5s ease;
+	width: 100%;
+	height: 70px;
+	font-size: 26px;
+}
+
+.send_order #close
+{
+	font-size: 25px;
+	position: absolute;
+	right: 40px;
+	top: 30px;
+	color: #4a4a4a;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.send_order .below_input_text
+{
+	font-size: 18px;
+	margin: 50px auto 0 auto;
+	color: #909090;
+	width: 69%;
+	text-align: center;
+}
+
+.send_order .below_input_text a
+{
+	color: #909090;
+	font-weight: bold;
+}
+
+.show_pop_up_order
+{
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex !important;
+    animation: showPopUp 0.5s ease forwards;
+}
+
+@keyframes showPopUp
+	{
+	  0% 
+	  {
+	  	opacity: 0%;
+	   
+	  }
+	  100% 
+	  {
+	  	opacity: 100%;
+	   	background: rgba(0, 0, 0, 0.5);
+	  }
+	}
+
+.send_order #succes_order 
+{
+    font-size: 25px;
+    text-align: center;
+    margin: 30px 0;
+}
+/*Попап на заявку*/

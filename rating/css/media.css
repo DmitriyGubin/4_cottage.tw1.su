@@ -1,0 +1,183 @@
+@media screen and (max-width: 1580px)
+{
+	.nav_chain li a
+	{
+		font-size: 16px;
+	}
+
+	.nav_chain svg
+	{
+		width: 15px;
+		height: 15px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.nav_chain
+	{
+		margin-bottom: 30px;
+	}
+
+	.nav_chain li a
+	{
+		font-size: 13px;
+	}
+
+	.reiting .title
+	{
+		font-size: 24px;
+	}
+}
+/**********************/
+@media screen and (max-width: 1580px)
+{
+	.reiting .descr
+	{
+		font-size: 16px;
+	}
+
+	.reiting span
+	{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.reiting .villa-box
+	{
+		flex-direction: column;
+	}
+
+	.reiting .text-box
+	{
+		width: 100%;
+	}
+
+	.reiting .img-box,
+	.reiting .img-box img
+	{
+		width: 100%;
+		border-radius: 0 0 20px 20px;
+	}
+
+	.reiting .img-box
+	{
+		height: 400px;
+		margin-top: 20px;
+	}
+
+	/*.reiting .first-line img
+	{
+		display: none;
+	}*/
+}
+
+@media screen and (max-width: 750px)
+{
+	.reiting .villa-name
+	{
+		font-size: 16px;
+	}
+
+	.reiting .first-line img
+	{
+		width: 20px;
+		height: 10px;
+	}
+
+	.reiting .squere
+	{
+		font-size: 20px;
+	}
+
+	.reiting .squere
+	{
+		margin-right: 10px;
+	}
+
+	.reiting .squere 
+	{
+	    width: 40px;
+	    height: 40px;
+	}
+
+	.reiting .img-box
+	{
+		height: 200px;
+	}
+
+	.reiting span
+	{
+		font-size: 13px;
+	}
+
+	.reiting .points div
+	{
+		padding: 5px 10px;
+	}
+
+	.reiting .points div
+	{
+		margin-right: 10px;
+		margin-top: 10px;
+	}
+
+	.reiting .site.yandex 
+	{
+	    width: 20px;
+	    height: 20px;
+	}
+
+	.reiting .star 
+	{
+	    width: 15px;
+	    height: 15px;
+	}
+
+	.reiting .site 
+	{
+	    width: 21px;
+	    height: 21px;
+	}
+
+	.reiting .with div 
+	{
+	    margin: 10px 10px 0 0;
+	    border-radius: 100px;
+	    padding: 5px 10px;
+	    box-shadow: 0px 0px 15px 5px #f3f3f3;
+	    display: flex;
+	    align-items: center;
+	}
+
+	.reiting .text-box
+	{
+		padding-bottom: 0px;
+	}
+}
+
+/*******добавить***/
+@media screen and (max-width: 750px)
+{
+	.reiting .remark
+	{
+		font-size: 13px;
+		padding: 10px 0;
+		width: 200px;
+		top: -50px;
+	}
+
+	.reiting .triangle
+	{
+		top: 10px;
+	}
+
+	.reiting .triangle 
+	{
+	    border-left: 7px solid transparent;
+	    border-right: 7px solid transparent;
+	    border-top: 14px solid white;
+	} 
+}

@@ -1,0 +1,97 @@
+@media screen and (max-width: 1580px)
+{
+	.nav_chain li a
+	{
+		font-size: 16px;
+	}
+
+	.nav_chain svg
+	{
+		width: 15px;
+		height: 15px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.nav_chain
+	{
+		margin-bottom: 30px;
+	}
+
+	.nav_chain li a
+	{
+		font-size: 13px;
+	}
+}
+/**********************/
+@media screen and (max-width: 1580px)
+{
+	.text,
+	.form input, 
+	.form textarea,
+	.form .main-fields
+	{
+		font-size: 16px;
+	}
+
+	.form span
+	{
+		font-size: 14px;
+	}
+
+	.form button
+	{
+		height: 50px;
+		font-size: 20px;
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.title
+	{
+		font-size: 24px;
+	}
+
+	.form h3
+	{
+		font-size: 22px;
+	}
+
+	.img-box
+	{
+		margin: 30px 0;
+	}
+
+	.form
+	{
+		padding: 20px;
+	}
+
+	.form input
+	{
+		height: 50px;
+		padding: 0 20px;
+		margin-bottom: 20px;
+	}
+
+	.form textarea 
+	{
+	    height: 150px;
+	    padding: 15px 20px;
+	    margin-bottom: 20px;
+	}
+
+	.form h3 
+	{
+	    margin-bottom: 40px;
+	}
+
+	.form button
+	{
+		margin: 30px 0;
+	}
+
+}

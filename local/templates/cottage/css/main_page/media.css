@@ -1,0 +1,808 @@
+@media screen and (max-width: 1584px)
+{
+	.filter .first-sel 
+	{
+	   /* width: 120px;
+	    margin-right: 10px;
+	    padding: 0px;*/
+	}
+
+	.filter .var-box-first div, 
+	.filter .var-box-second div 
+	{
+    /*padding: 6px 10px;*/
+  
+	}
+
+	.filter .price
+	{
+		padding: 0 20px;
+	}
+
+	.filter .price input 
+	{
+	    padding: 0 10px;
+	    text-align: center;
+	    width: 125px;
+	    height: 55px;
+	}
+
+	.filter .second-sel 
+	{
+	    width: 250px;
+	    padding: 0 10px;
+	    border: none;
+	    font-size: 21px;
+	}
+
+	.filter .first-sel,
+	.filter .price span,
+	.filter .price input,
+	.filter .var-box-first div, .filter .var-box-second div,
+	.filter .second-sel
+	{
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 1250px)
+{
+	.filter form
+	{
+		flex-wrap: wrap;
+		/*justify-content: space-between;*/
+	}
+
+	
+	.filter .filter-text
+	{
+		top: 50px;
+	}
+
+	.filter .filter-text h2
+	{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1061px)
+{
+	.filter form
+	{
+		justify-content: center;
+	}
+
+	.filter .redirect_butt
+	{
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 840px)
+{
+	.filter .first-sel 
+	{
+	    width: 150px;
+	    margin-right: 20px;
+	    padding: 15px 10px 15px 10px;
+	}
+
+	.filter .price input 
+	{
+	    width: 115px;
+	}
+
+	.filter .var-box-first div
+	{
+	    padding: 15px 10px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.filter .var-box-first
+	{
+		padding: 7px 0;
+		margin-top: 3px;
+	}
+
+	.filter .var-box-first div 
+	{
+	    padding: 7px 10px;
+	}
+
+	.filter .var-box-first div
+	{
+		text-align: center;
+	}
+
+	.rotate-out 
+	{
+    	transform: rotate(90deg) scale(0.6) !important;
+	}
+
+	.rotate-in 
+	{
+	    transform: rotate(270deg) scale(0.6) !important;
+	}
+
+	.filter .fon-img
+	{
+		display: none;
+	}
+
+	.filter .fon-img-mobile
+	{
+		display: block !important;
+	}
+
+	.filter .fon-img-mobile 
+	{
+	    width: 100%;
+	    height: 100%;
+	    object-fit: cover;
+	    object-position: 50% 50%;
+	}
+
+	.filter
+	{
+		padding: 0px;
+		margin-top: 0px;
+		height: 520px;
+	}
+
+	.filter .filter-text
+	{
+		width: calc(100% - 30px);
+		left: 15px;
+	}
+
+	.filter .filter-text h2
+	{
+		font-size: 32px;
+	}
+
+	.filter form
+	{
+		background: none;
+		padding: 0px;
+		justify-content: space-between;
+	}
+
+	.filter .first-sel
+	{
+		width: 100%;
+		background: #ffffff;
+		padding: 20px 10px;
+		border-radius: 20px;
+		margin: 0 0 20px 0;
+	}
+
+	.filter .first-sel, 
+	.filter .price span, .filter .price input, .filter .var-box-first div, .filter .var-box-second div, .filter .second-sel {
+    font-size: 14px;
+	}
+
+	.filter svg
+	{
+		margin-right: 5px;
+	}
+
+	.filter .price
+	{
+		width: 100%;
+		background: #ffffff;
+		padding: 10px 10px;
+		border-radius: 20px;
+
+		display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+
+	.filter .price input
+	{
+		height: 50px;
+		width: 90px;
+		padding: 0px;
+	}
+
+	.filter #price-from 
+	{
+	    margin: 0 5px;
+	}
+
+	.filter #price-to {
+    margin: 0 0 0 5px;
+	}
+
+	.filter .redirect_butt
+	{
+		width: 100%;
+	}
+
+	.filter .numbers div h3
+	{
+		font-size: 40px;
+    	margin: 0 5px 0 0;
+	}
+
+	.filter .numbers
+	{
+		justify-content: space-between;
+	}
+
+	.filter .numbers div p
+	{
+		font-size: 16px;
+	}
+
+	.filter .var-box-first, 
+	.filter .var-box-second
+	{
+		border-radius: 10px;
+	}
+}
+
+@media screen and (max-width: 375px)
+{
+	.filter .filter-text 
+	{
+	    width: calc(100% - 20px);
+	    left: 10px;
+	}
+}
+
+@media screen and (max-width: 360px)
+{
+	.filter .numbers div p
+	{
+		font-size: 15px;
+	}
+}
+
+/*************************/
+@media screen and (max-width: 1580px)
+{
+	.options .opt-title
+	{
+		font-size: 20px;
+	}
+
+	.options .variants a,
+	.options .variants span,
+	.options .realty .realty-text p
+	{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 1300px)
+{
+	.options .galka 
+	{
+	    width: 30px;
+	    height: 30px;
+	    margin-right: 10px;
+	}
+
+	.options .opt-title 
+	{
+	    margin: 5px 0 0 0;
+	}
+
+	.options .advert .variants div:last-child
+	{
+		width: 100%;
+	}
+
+	.options .area .right-picture
+	{
+		width: 200px;
+	    height: 117px;
+	    margin-top: auto;
+	}
+
+	.options .realty .right-picture
+	{
+		width: 200px;
+	    height: 154px;
+	    margin: auto 0;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.options .all-opt
+	{
+		width: 100%;
+	}
+
+	.options .advert .variants div:last-child
+	{
+		width: 50%;
+	}
+
+	.options .area .right-picture
+	{
+		margin-left: auto;
+	}
+
+	.options .area .right-picture,
+	.options .realty .right-picture
+	{
+		margin-bottom: -20px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.options .variants div
+	{
+		width: 100% !important;
+	}
+
+	.options .variants
+	{
+		margin-left: -40px;
+	}
+
+	.options .variants a
+	{
+		margin-right: 10px;
+	}
+
+	.options .area
+	{
+		position: relative;
+	}
+
+	.options .area .right-picture
+	{
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		margin-bottom: 0px;
+		border-radius: 0 0 20px 0;
+	}
+
+	.options .area .variants div
+	{
+		z-index: 10;
+	}
+
+	.options .realty .realty-text
+	{
+		margin-left: -40px;
+	}
+
+
+}
+
+@media screen and (max-width: 380px)
+{
+	.options .area .right-picture 
+	{
+	    width: 160px;
+	    height: 94px;
+	}
+}
+
+@media screen and (max-width: 550px)
+{
+	.options .realty
+	{
+		position: relative;
+	}
+
+	.options .realty .right-picture
+	{
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		margin-bottom: 0px;
+	}
+
+	.options .realty .right-picture 
+	{
+	    width: 130px;
+	    height: 120px;
+	}
+
+	.options .realty .realty-text p
+	{
+		width: 63%;
+	}
+}
+
+/********************************/
+@media screen and (max-width: 1400px)
+{
+	.popular-townships .popular-box 
+	{
+	    padding: 5px 20px 0 20px;
+	}
+}
+
+
+@media screen and (max-width: 1580px)
+{
+	.popular-townships .popular-box h2
+	{
+		font-size: 20px;
+	}
+
+	.popular-townships .popular-box p,
+	.popular-townships .popular-villa-butt
+	{
+		font-size: 16px;
+	}
+
+	.popular-townships .popular-box div
+	{
+		padding: 10px 0;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.popular-townships .popular-box
+	{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.popular-townships
+	{
+		margin-top: 30px;
+	}
+
+	.popular-townships .title
+	{
+		margin-bottom: 30px;
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 400px)
+{
+	.popular-townships .popular-box
+	{
+		flex-direction: column;
+	}
+
+	.popular-townships .popular-box img
+	{
+		width: 100%;
+		border-radius: 0 0 20px 20px;
+	}
+
+	.popular-townships .popular-box
+	{
+		padding: 0px;
+	}
+
+	.popular-townships .popular-box div
+	{
+		padding: 20px;
+	}
+
+	.popular-townships .popular-villa-butt
+	{
+		width: 100%;
+	}
+}
+
+/*****************/
+@media screen and (max-width: 1580px)
+{
+	.popular-advt .popular-advt-box div a,
+	.popular-advt .popular-advt-box div span
+	{
+		font-size: 16px;
+	}
+
+	.popular-advt .popular-advt-box div
+	{
+		max-width: 320px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.popular-advt
+	{
+		margin-top: 30px;
+	}
+
+	.popular-advt .title
+	{
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+
+	.popular-advt .popular-advt-box div
+	{
+		margin: 0 20px 20px 0;
+	}
+}
+
+/*************************/
+@media screen and (max-width: 1580px)
+{
+	.best-offers .promotion,
+	.best-offers .text-box h2,
+	.best-offers .text-box h3
+	{
+		font-size: 20px;
+	}
+
+	.best-offers .text-box div p
+	{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 1400px)
+{
+	.best-offers .img-box
+	{
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 1200px)
+{
+	.best-offers .text-box div p
+	{
+		width: 100%;
+	}
+
+	.best-offers .promotion
+	{
+		width: 180px;
+		padding: 7px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.best-offers .best-offers-item
+	{
+		width: 48%;
+	}
+
+	.best-offers .best-offers-box
+	{
+		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.best-offers .title
+	{
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+
+	.best-offers
+	{
+		margin-top: 50px;
+	}
+
+	.best-offers .best-offers-item
+	{
+		width: 100%;
+	}
+
+	.best-offers .text-box 
+	{
+	    padding: 20px;
+	}
+
+	.best-offers .text-box h3 
+	{
+	    margin: 10px 0 20px 0;
+	}
+}
+
+/***************************/
+@media screen and (max-width: 1580px)
+{
+	.ipoteka .ipoteka-text h2
+	{
+		font-size: 32px;
+	}
+
+	.ipoteka .ipoteka-text p
+	{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 1300px)
+{
+	.ipoteka .ipoteka-text h2
+	{
+		font-size: 20px;
+	}
+
+	.ipoteka .ipoteka-text p,
+	.ipoteka .ipoteka-text button
+	{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 1100px)
+{
+	.ipoteka .ipoteka-text p
+	{
+		margin: 15px 0;
+	}
+
+	.ipoteka .ipoteka-box
+	{
+		padding: 0px 20px;
+	}
+}
+
+@media screen and (max-width: 870px)
+{
+	.ipoteka .ipoteka-text
+	{
+		width: 60%;
+	}
+
+	.ipoteka .ipoteka-text button 
+	{
+	    width: 150px;
+	    height: 40px;
+	    border-radius: 20px;
+	}
+
+	.ipoteka .ipoteka-text p
+	{
+		margin: 10px 0;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.ipoteka .title
+	{
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+
+	.ipoteka .percent
+	{
+		display: none;
+	}
+
+	.ipoteka .mobile-pic
+	{
+		display: block !important;
+		position: absolute;
+		width: 30%;
+		right: 0px;
+		bottom: 0px;
+		border-radius: 0 0 20px 0;
+	}
+
+	.ipoteka .ipoteka-box
+	{
+		position: relative;
+	}
+
+	.ipoteka .ipoteka-text
+	{
+		width: 80%;
+	}
+
+	.ipoteka .ipoteka-box
+	{
+		padding: 60px 20px 80px 20px;
+	}
+
+	.ipoteka .ipoteka-text p 
+	{
+	    margin: 30px 0;
+	}
+}
+
+@media screen and (max-width: 500px)
+{
+	.ipoteka .mobile-pic
+	{
+		width: 40%;
+	}
+}
+
+/***********************/
+@media screen and (max-width: 1300px)
+{
+	.better-condit .better-item
+	{
+		width: 44%;
+		margin-bottom: 60px;
+	}
+
+	.better-condit .better-condit-box
+	{
+		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.better-condit .better-item 
+	{
+	    padding: 50px 20px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.better-condit .title
+	{
+		font-size: 24px;
+		margin-bottom: 50px;
+	}
+
+	.better-condit 
+	{
+	    margin-top: 50px;
+	}
+
+	.better-condit .better-item 
+	{
+	    width: 100%;
+	    margin-bottom: 50px;
+	}
+
+	.better-condit .better-item img 
+	{
+	    top: -30px;
+	    left: calc(50% - 30px);
+	    width: 60px;
+	    height: 60px;
+	}
+
+	.better-condit .better-item
+	{
+		font-size: 15px;
+	}
+
+}
+
+/*************************/
+@media screen and (max-width: 1580px)
+{
+	.market p
+	{
+		font-size: 14px;
+	}
+
+	.market p:nth-child(3)
+	{
+		margin: 20px 0;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.market .title 
+	{
+	    margin-bottom: 30px;
+	    font-size: 24px;
+	}
+
+	.market
+	{
+		margin-top: 0px;
+	}
+}

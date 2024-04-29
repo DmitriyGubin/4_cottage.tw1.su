@@ -1,0 +1,344 @@
+/**********Хидер************/
+@media screen and (max-width: 1000px)
+{
+	header .menu li 
+	{
+	    margin-right: 20px;
+	}
+}
+
+@media screen and (max-width: 1020px)
+{
+	header .header-contacts
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	header .header-contacts .head-phone
+	{
+		margin-right: 0px;
+	}
+
+	header .header-contacts .wats-app
+	{
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 1580px)
+{
+	.title
+	{
+		font-size: 32px;
+	}
+
+	header .menu a
+	{
+		font-size: 16px;
+	}
+
+	header .header-contacts .head-phone
+	{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 1100px)
+{
+	header .header-contacts .head-phone
+	{
+		font-size: 18px;
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	header
+	{
+		padding: 10px 0;
+	}
+
+	header .header-contacts
+	{
+		display: none;
+	}
+
+	header .burger
+	{
+		display: block !important;
+	}
+
+	header .logo
+	{
+		width: 150px;
+	}
+
+	/***************/
+	header .header-line
+	{
+		position: relative;
+	}
+
+
+	header .menu
+	{
+		position: absolute;
+		top: calc(100% - 5px);
+		left: -100%;
+		background: rgb(245, 246, 246);
+		width: 100%;
+		box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.37);
+		transition: all 0.4s ease;
+		display: flex;
+		flex-direction: column;
+		max-height: 100vh;
+    	overflow-y: auto;
+    	flex-wrap: nowrap;
+    	padding: 20px 0;
+	}
+
+	header .menu li
+	{
+		margin: 20px 0px 20px 20px;
+		color: #000;
+	    font-size: 14px;
+	    text-transform: uppercase;
+	    font-weight: bold;
+	    /*width: 100%;*/
+	}
+
+	header .menu.open-menu
+	{
+	    left:0;
+	    /*transition: 0.4s;*/
+	}
+
+	/*бургер*/
+	header .burger {
+		position: relative;
+	    width: 40px;
+	    height: 35px;
+	   }
+	header .burger span, .burger:after, .burger:before{
+		height: 3px;
+		width: 100%;
+		position: absolute;
+		background: #515758;
+		margin: 0 auto;
+	}
+	header .burger span{
+		top: 16px;
+	}
+	header  .burger:after, 
+	header .burger:before{
+		content: '';
+	}
+	header .burger:after{
+		bottom: 5px;
+	}
+	header .burger:before{
+		top: 5px;
+	}
+	header .burger.open-menu span {
+		opacity:0; 
+	    transition: 0.5s; 
+	}
+	header .burger.open-menu:before {
+		transform: rotate(38deg);
+	    top: 16px;
+	    transition: 0.4s;
+	}
+	header .burger.open-menu:after {
+		transform: rotate(-38deg);
+	    bottom: 16px;
+	    transition: 0.4s;
+	}
+	/*бургер*/
+}
+
+/**********Хидер************/
+
+
+/*******Футер*********/
+@media screen and (max-width: 1580px)
+{
+	footer .footer-menu h2,
+	footer .footer-phones a
+	{
+		font-size: 20px;
+	}
+
+	footer .footer-menu a,
+	footer .footer-phones p
+	{
+		font-size: 16px;
+	}
+
+	footer .footer-two .wrap div a
+	{
+		font-size: 14px;
+	}
+
+	footer .footer-two .wrap p
+	{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 1020px)
+{
+	footer .footer-menu div
+	{
+		margin-right: 50px;
+	}
+
+	footer .footer-menu div:last-child
+	{
+		margin-right: 10px;
+	}
+
+	footer .footer-two .wrap div a
+	{
+		margin-left: 40px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	footer .telegram img
+	{
+		width: 25px;
+	}
+
+	footer .odnoklass img
+	{
+		width: 17px;
+	}
+
+	footer .vkontakte img
+	{
+		width: 32px;
+	}
+
+	footer .footer-one
+	{
+		flex-direction: column-reverse;
+	}
+
+	footer .footer-phones 
+	{
+	    align-items: center;
+	}
+
+	footer .footer-phones div
+	{
+		text-align: center;
+	}
+
+	footer .foot-logo
+	{
+		display: block !important;
+	}
+	
+	footer .foot-logo img
+	{
+		display: block;
+		width: 150px;
+		margin: 0 auto 20px auto;
+	}
+
+	footer 
+	{
+	    padding: 30px 0 20px 0;
+	}
+
+	footer .footer-phones a
+	{
+		color: #33a9b8;
+	}
+
+	footer .footer-phones div
+	{
+		margin: 0 0 20px 0 !important;
+	}
+
+	footer .footer-menu
+	{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	footer .footer-menu div
+	{
+		margin: 0 0 20px 0 !important;
+		text-align: center;
+	}
+
+	footer .footer-menu h2
+	{
+		margin: 0px;
+	}
+
+	footer .footer-menu a
+	{
+		margin-top: 10px;
+	}
+
+	footer .footer-one
+	{
+		padding-bottom: 20px;
+	}
+
+	footer .footer-two .wrap
+	{
+		flex-direction: column-reverse;
+	}
+
+	footer .footer-two .wrap .polite-img
+	{
+		flex-direction: column-reverse;
+	}
+
+	footer .desctop
+	{
+		display: none;
+	}
+
+	footer .mobile
+	{
+		display: block !important;
+	}
+
+	footer .footer-two .wrap div a
+	{
+		margin-left: 0px;
+	}
+
+	footer .footer-two .wrap div a:nth-child(2)
+	{
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+	footer .footer-two .wrap div
+	{
+		justify-content: center;
+	}
+
+	footer .polite
+	{
+		margin: 30px 0;
+	}
+
+	footer .footer-two .wrap p
+	{
+		text-align: center;
+		width: 100%;
+	}
+
+}
+
+/*******Футер*********/

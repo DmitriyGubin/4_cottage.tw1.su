@@ -1,0 +1,1251 @@
+/*********************/
+.nav_chain 
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	padding: 0px;
+}
+
+.nav_chain li
+{
+	list-style-type: none;
+	height: 25px;
+	display: flex;
+	align-items: center;
+}
+
+.nav_chain li a
+{
+	font-size: 21px;
+	color: #b9b9b9;
+}
+
+.nav_chain svg
+{
+	width: 20px;
+	height: 20px;
+	color: #b9b9b9;
+	/*display: block;*/
+	margin: 0 5px;
+}
+/************************/
+.main-info .district
+{
+	display: flex;
+	align-items: center;
+	margin: 35px 0 50px 0;
+}
+
+.main-info .district img
+{
+	width: 20px;
+	height: 26px;
+	margin-right: 5px;
+}
+
+.main-info .district p
+{
+	margin: 0px;
+	font-size: 21px;
+	color: #707070;
+}
+
+.main-info .main-info-box
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-info .main-info-box .left-pict
+{
+	width: 55%;
+	border-radius: 20px;
+	height: 570px;
+}
+
+.main-info .main-info-box .left-pict img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 20px;
+}
+
+.main-info .right-info
+{
+	width: 43%;
+	border: 1px solid #dcdcdc;
+	padding: 40px;
+	background: #ffffff;
+	border-radius: 20px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.main-info .right-info .first-line
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main-info .right-info .first-line div
+{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.main-info .right-info .first-line .distance img
+{
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+.main-info .right-info .first-line .distance span
+{
+	font-size: 21px;
+	color: #707070;
+}
+
+.main-info .right-info .first-line .price span
+{
+	font-size: 21px;
+}
+
+.main-info .right-info .first-line .price .ruble
+{
+	color: #33a9b8;
+}
+
+.main-info .advantages
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px 0;
+}
+
+.main-info .advantages div
+{
+	width: 50%;
+	margin-top: 15px;
+}
+
+.main-info .advantages img
+{
+	width: 20px;
+	height: 19px;
+	margin-right: 10px;
+}
+
+.main-info .advantages span
+{
+	font-size: 24px;
+}
+
+.main-info .phone
+{
+	color: black;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.main-info button
+{
+	width: 420px;
+	height: 65px;
+	font-size: 26px;
+	color: white;
+	border: none;
+	margin: 35px 0 35px 0;
+	border-radius: 10px;
+	background: linear-gradient(to left, #34a5b6, #2ec0bf);
+}
+
+.main-info .site
+{
+	font-size: 24px;
+	color: #bcbcbc;
+}
+
+.main-info .site-ref
+{
+	font-size: 24px;
+	color: #34a7b7;
+}
+/************************/
+.about-village 
+{
+	margin-top: 79px;
+}
+
+.about-village .feature
+{
+	color: #34a5b6;
+	margin: 20px 0 40px 0;
+}
+
+.about-village .about-village-box
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.about-village .about-village-box .descr
+{
+	font-size: 24px;
+	margin: 0px;
+	width: 49.5%;
+}
+
+/*Слайдер*/
+
+.about-village .about-village-slider
+{
+	width: 49.5%;
+	height: 500px;
+	position: relative;
+  	overflow: hidden;
+	border-radius: 20px;
+}
+
+.about-village .about-village-slider img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 20px;
+}
+
+.about-village .swiper-wrapper,
+.about-village .swiper-slide
+{
+	height: 100%;
+}
+
+.about-village .swiper-button-prev-photo,
+.about-village .swiper-button-next-photo
+{
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 56px;
+	height: 56px;
+	border-radius: 56px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.about-village .swiper-button-prev-photo svg,
+.about-village .swiper-button-next-photo svg
+{
+	width: 25px;
+	color: white;
+}
+
+.about-village .swiper-button-prev-photo,
+.about-village .swiper-button-next-photo
+{
+	position: absolute;
+	top: calc(50% - 23px);
+	z-index: 10;
+}
+
+.about-village .swiper-button-prev-photo
+{
+	left: 60px; 
+}
+
+.about-village .swiper-button-next-photo
+{
+	right: 60px;
+}
+
+/*Слайдер*/
+/*******************/
+.plan-village .no-photo
+{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    box-shadow: 0px 0px 15px 5px #f3f3f3;
+    margin-bottom: 30px;
+}
+
+.plan-village 
+{
+	margin-top: 100px;
+}
+
+.plan-village .title
+{
+	margin-bottom: 60px;
+}
+
+.plan-village  .main-img
+{
+	width: 100%;
+	border-radius: 20px;
+	margin: 60px 0 30px 0;
+}
+
+.plan-village .transport
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.plan-village .path
+{
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.plan-village .path img
+{
+	width: 85px;
+	height: 83px;
+	margin-right: 20px;
+}
+
+.plan-village .path span
+{
+	font-size: 24px;
+	color: #848484;
+}
+
+.plan-village .path:first-child
+{
+	margin-right: 100px;
+}
+/**********************/
+.houses-village
+{
+	margin-top: 100px;
+}
+
+.houses-village .title
+{
+	margin-bottom: 75px;
+}
+
+.houses-village .hard-choose
+{
+	padding: 90px 25px 60px 55px;
+	border-radius: 20px;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #efefef;
+}
+
+.houses-village .hard-choose .left-text
+{
+	width: 50%;
+}
+
+.houses-village .hard-choose h2
+{
+	font-size: 40px;
+	font-family: "CaviarDreamsBold", sans-serif;
+}
+
+.houses-village .hard-choose p
+{
+	font-size: 24px;
+	margin: 25px 0  70px 0;
+}
+
+.houses-village .form
+{
+	display: flex;
+	position: relative;
+	margin-bottom: 65px;
+}
+
+.houses-village input
+{
+	height: 65px;
+	padding: 0 30px;
+	font-size: 24px;
+	color: #adadad;
+	margin-right: 30px;
+	border-radius: 10px;
+	border: 1px solid #e8e8e8;
+}
+
+.houses-village #hard-name
+{
+	width: 250px;
+}
+
+.houses-village #hard-phone
+{
+	width: 370px;
+}
+
+.houses-village .form button
+{
+	position: absolute;
+	left: calc(250px + 60px + 370px);
+	height: 65px;
+	width: 200px;
+	font-size: 26px;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	background: linear-gradient(to left, #34a5b6, #2ec0bf);
+}
+
+.houses-village .hard-choose span,
+.houses-village .hard-choose span a
+{
+	font-size: 18px;
+	color: #909090 !important;
+}
+
+.houses-village .hard-choose img
+{
+	width: 45%;
+}
+
+/**************/
+.area-village
+{
+	margin-top: 85px;
+}
+
+.area-village .title
+{
+	margin-bottom: 70px;
+}
+
+.area-village .hard-choose
+{
+	padding-left:55px;
+	border-radius: 20px;
+	background: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #efefef;
+	margin-bottom: 80px;
+}
+
+.area-village .hard-choose .left-text
+{
+	width: 48%;
+	position: relative;
+}
+
+.area-village .hard-choose h2
+{
+	font-size: 40px;
+	font-family: "CaviarDreamsBold", sans-serif;
+}
+
+.area-village .hard-choose p
+{
+	font-size: 24px;
+	margin: 25px 0  70px 0;
+}
+
+.area-village .form
+{
+	display: flex;
+	position: relative;
+	margin-bottom: 65px;
+}
+
+.area-village input
+{
+	height: 65px;
+	padding: 0 30px;
+	font-size: 24px;
+	color: #adadad;
+	margin-right: 30px;
+	border-radius: 10px;
+	border: 1px solid #e8e8e8;
+}
+
+.area-village #hard-name-bottom
+{
+	width: 250px;
+}
+
+.area-village #hard-phone-bottom
+{
+	width: 370px;
+}
+
+.area-village .form button
+{
+	position: absolute;
+	left: calc(250px + 60px + 370px);
+	height: 65px;
+	width: 200px;
+	font-size: 26px;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	background: linear-gradient(to left, #34a5b6, #2ec0bf);
+}
+
+.area-village .hard-choose span,
+.area-village .hard-choose span a
+{
+	font-size: 18px;
+	color: #909090 !important;
+}
+
+.area-village .hard-choose img
+{
+	width: 52%;
+	border-radius: 0 20px 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********медиа запросы***************/
+/**************/
+@media screen and (max-width: 1580px)
+{
+	.nav_chain li a
+	{
+		font-size: 16px;
+	}
+
+	.nav_chain svg
+	{
+		width: 15px;
+		height: 15px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.nav_chain
+	{
+		margin-bottom: 30px;
+	}
+
+	.nav_chain li a
+	{
+		font-size: 13px;
+	}
+}
+/***********/
+@media screen and (max-width: 1580px)
+{
+	.main-info .district p,
+	.main-info .right-info .first-line .distance span,
+	.main-info .right-info .first-line .price span,
+	.main-info .advantages span,
+	.main-info button,
+	.main-info .site,
+	.main-info .site-ref
+	{
+		font-size: 16px;
+	}
+
+	.main-info button
+	{
+		font-size: 20px;
+	}
+
+	.main-info .phone
+	{
+		font-size: 20px;
+	}
+
+	.main-info .right-info .first-line .distance img
+	{
+		width: 20px;
+		height: 20px;
+	}
+
+	.main-info .title
+	{
+		font-size: 32px
+	}
+}
+
+@media screen and (max-width: 1200px)
+{
+	.main-info button
+	{
+		width: 250px;
+	}
+
+	.main-info .right-info .first-line div
+	{
+		width: 100%;
+	}
+
+	.main-info .right-info .first-line div:first-child
+	{
+		margin-bottom: 10px;
+	}
+
+	.main-info .right-info
+	{
+		padding: 30px;
+	}
+
+	.main-info .main-info-box .left-pict
+	{
+		height: 500px;
+	}
+}
+
+@media screen and (max-width: 1000px)
+{
+	.main-info .main-info-box .left-pict
+	{
+		width: 100%;
+	}
+
+	.main-info .right-info
+	{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.main-info .main-info-box
+	{
+		flex-direction: column;
+	}
+
+	/*.main-info .right-info .first-line div
+	{
+		width: 50%;
+	}*/
+
+	.main-info .right-info .first-line div:first-child
+	{
+		margin-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.main-info .title
+	{
+		font-size: 24px;
+	}
+
+	.main-info .main-info-box .left-pict
+	{
+		width: calc(100% + 30px);
+    	margin-left: -15px;
+    	border-radius: 0px;
+    	height: 300px;
+	}
+
+	.main-info .main-info-box .left-pict img
+	{
+    	border-radius: 0px;
+	}
+
+	.main-info .district 
+	{
+	    margin: 20px 0;
+	}
+
+	.main-info .right-info
+	 {
+	    padding: 15px;
+	}
+
+	.main-info .district p, 
+	.main-info .right-info .first-line .distance span,
+	 .main-info .right-info .first-line .price span,
+	  .main-info .advantages span,
+	   .main-info button, 
+	   .main-info .site, 
+	   .main-info .site-ref 
+	{
+	    font-size: 13px;
+	}
+
+	.main-info button
+	{
+		height: 50px;
+		font-size: 18px;
+	}
+
+	.main-info .advantages img 
+	{
+	    width: 12px;
+	    height: 12px;
+	    margin-right: 2px;
+	}
+}
+
+/**********************/
+@media screen and (max-width: 1580px)
+{
+	.about-village .title
+	{
+		font-size: 32px;
+		margin-bottom: 10px;
+	}
+
+	.about-village .about-village-box .descr
+	{
+		font-size: 16px;
+	}
+
+	.about-village .about-village-slider
+	{
+		height: 350px;
+	}
+
+	.about-village .swiper-button-next-photo
+	{
+		right: 10px;
+	}
+
+	.about-village .swiper-button-prev-photo
+	{
+		left: 10px;
+	}
+}
+
+@media screen and (max-width: 850px)
+{
+	.about-village .about-village-box
+	{
+		flex-direction: column-reverse;
+	}
+
+	.about-village .about-village-box .descr,
+	.about-village .about-village-slider
+	{
+		width: 100%;
+	}
+
+	.about-village .about-village-slider
+	{
+		height: 500px;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.about-village .title
+	{
+		font-size: 24px;
+	}
+
+	.about-village
+	{
+		margin-top: 50px;
+	}
+
+	.about-village .feature
+	{
+		margin: 20px 0;
+	}
+
+	.about-village .about-village-slider
+	{
+		height: 300px;
+	}
+
+	.about-village .swiper-button-prev-photo, 
+	.about-village .swiper-button-next-photo 
+	{
+	    width: 30px;
+	    height: 30px;  
+	}
+
+	.about-village .swiper-button-prev-photo svg, .about-village .swiper-button-next-photo svg {
+    width: 15px;
+}
+}
+
+/*****************************/
+@media screen and (max-width: 1580px)
+{
+	.plan-village .title
+	{
+		font-size: 32px;
+	}
+
+	.plan-village .path span
+	{
+		font-size: 16px;
+	}
+
+	.plan-village .path img
+	{
+	    width: 60px;
+	    height: 58px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.plan-village .title 
+	{
+		font-size: 24px;
+	    margin-bottom: 30px;
+	}
+
+	.plan-village
+	{
+		margin-top: 50px;
+	}
+
+	.plan-village  .main-img
+	{
+		margin-top: 0px;
+	}
+
+	.plan-village .path:first-child
+	{
+		margin-right: 0px;
+	}
+}
+
+/*****************************/
+@media screen and (max-width: 1580px)
+{
+	.houses-village .title
+	{
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 1580px)
+{
+	.houses-village .hard-choose h2
+	{
+		font-size: 25px;
+	}
+
+	.houses-village .hard-choose p,
+	.houses-village input
+	{
+		font-size: 16px;
+	}
+
+	.houses-village .form button
+	{
+		font-size: 20px;
+	}
+
+	.houses-village .hard-choose span, 
+	.houses-village .hard-choose span a
+	{
+		font-size: 13px;
+	}
+
+	.houses-village #hard-name
+	{
+		width: 200px;
+	}
+
+	.houses-village #hard-phone
+	{
+		width: 250px;
+	}
+
+	.houses-village .form button 
+	{
+	    left: calc(200px + 60px + 250px);
+	}
+
+	.houses-village .hard-choose p 
+	{
+	    margin: 25px 0;
+	}
+
+	.houses-village .hard-choose 
+	{
+	    padding: 50px 25px 50px 50px;
+	}
+}
+
+@media screen and (max-width: 1270px)
+{
+	.houses-village #hard-name
+	{
+		width: 150px;
+		padding: 0 20px;
+	}
+
+	.houses-village #hard-phone
+	{
+		width: 170px;
+		padding: 0 20px;
+	}
+
+	.houses-village .form button 
+	{
+	    left: calc(170px + 60px + 150px);
+	}
+
+	.houses-village .form button
+	{
+		width: 150px;
+	}
+
+	.houses-village .form
+	{
+		margin-bottom: 20px;
+	}
+
+	.houses-village .hard-choose 
+	{
+	    padding: 25px;
+	}
+
+	.houses-village input,
+	.houses-village .form button
+	{
+		height: 45px;
+	}
+}
+
+@media screen and (max-width: 970px)
+{
+	.houses-village .form button
+	{
+		position: static;
+		margin: 10px auto 0 auto;
+	}
+
+	.houses-village .form
+	{
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.houses-village #hard-phone
+	{
+		margin-right: 0px;
+	}
+
+	.houses-village .hard-choose .left-text
+	{
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	
+	.houses-village .title
+	{
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+
+	.houses-village
+	{
+		margin-top: 40px;
+	}
+}
+
+/***copy***/
+@media screen and (max-width: 750px)
+{
+	.houses-village .hard-choose
+	{
+		flex-direction: column;
+	}
+
+	.houses-village .hard-choose .left-text,
+	.houses-village .hard-choose img
+	{
+		width: 100%;
+	}
+
+	.houses-village .desctop-var
+	{
+		display: none;
+	}
+
+
+	.houses-village .mobile-var
+	{
+		display: block !important;
+	}
+
+	.houses-village .hard-choose h2 
+	{
+	    font-size: 20px;
+	}
+
+	.houses-village #hard-name,
+	.houses-village #hard-phone
+	{
+		width: 100%;
+		margin: 10px auto;
+		max-width: 500px;
+	}
+
+	.houses-village .mobile-var
+	{
+	    width: 100%;
+	    max-width: 500px;
+
+	    height: 50px;
+	    font-size: 18px;
+	    color: white;
+	    border: none;
+	    margin: 20px auto;
+	    border-radius: 10px;
+	    background: linear-gradient(to left, #34a5b6, #2ec0bf);
+	}
+
+	.houses-village .hard-choose
+	{
+		padding: 20px;
+	}
+}
+/***copy***/
+
+/*****************/
+@media screen and (max-width: 1580px)
+{
+	.area-village .title
+	{
+		font-size: 32px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.area-village
+	{
+		margin-top: 50px;
+	}
+
+	.area-village .title
+	{
+		margin-bottom: 30px;
+		font-size: 24px;
+	}
+}
+
+/**здесь*/
+@media screen and (max-width: 1580px)
+{
+	.area-village .hard-choose h2
+	{
+		font-size: 25px;
+	}
+
+	.area-village .hard-choose p,
+	.area-village input
+	{
+		font-size: 16px;
+	}
+
+	.area-village .form button
+	{
+		font-size: 20px;
+	}
+
+	.area-village .hard-choose span, 
+	.area-village .hard-choose span a
+	{
+		font-size: 13px;
+	}
+
+	.area-village #hard-name-bottom
+	{
+		width: 200px;
+	}
+
+	.area-village #hard-phone-bottom
+	{
+		width: 250px;
+	}
+
+	.area-village .form button 
+	{
+	    left: calc(200px + 60px + 250px);
+	}
+
+	.area-village .hard-choose p 
+	{
+	    margin: 25px 0;
+	}
+}
+
+@media screen and (max-width: 1270px)
+{
+	.area-village #hard-name-bottom
+	{
+		width: 150px;
+		padding: 0 20px;
+	}
+
+	.area-village #hard-phone-bottom
+	{
+		width: 170px;
+		padding: 0 20px;
+	}
+
+	.area-village .form button 
+	{
+	    left: calc(170px + 60px + 150px);
+	}
+
+	.area-village .form button
+	{
+		width: 150px;
+	}
+
+	.area-village .form
+	{
+		margin-bottom: 20px;
+	}
+
+	.area-village input,
+	.area-village .form button
+	{
+		height: 45px;
+	}
+
+	.area-village .hard-choose
+	{
+		padding-left: 25px;
+	}
+}
+
+@media screen and (max-width: 970px)
+{
+	.area-village .form button
+	{
+		position: static;
+		margin: 10px auto 0 auto;
+	}
+
+	.area-village .form
+	{
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.area-village #hard-phone-bottom
+	{
+		margin-right: 0px;
+	}
+
+	.area-village .hard-choose .left-text
+	{
+		width: 55%;
+	}
+
+	.area-village .hard-choose img
+	{
+		height: 360px;
+	}
+
+	.area-village input
+	{
+		margin-right: 0px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.area-village .hard-choose
+	{
+		flex-direction: column;
+	}
+
+	.area-village .hard-choose
+	{
+		padding: 0px;
+	}
+
+	.area-village .hard-choose .left-text
+	{
+		width: 100%;
+	}
+
+	.area-village .desctop-img
+	{
+		display: none;
+	}
+
+	.area-village .mobile-img
+	{
+		display: block !important;
+	}
+
+	.area-village .hard-choose img
+	{
+		height: auto;
+		width: 100%;
+		border-radius: 0 0 20px 20px;
+	}
+
+	.area-village .hard-choose .left-text
+	{
+		padding: 20px 20px 0 20px;
+	}
+
+	.area-village .hard-choose h2
+	{
+		font-size: 20px;
+	}
+
+	.area-village #hard-name-bottom,
+	.area-village #hard-phone-bottom
+	{
+		max-width: 500px;
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.area-village .mobile-butt
+	{
+		display: block !important;
+		position: absolute;
+		top: 110%;
+		font-size: 18px;
+		width: calc(100% - 40px);
+		height: 50px;
+	    color: white;
+	    border: none;
+	    border-radius: 10px;
+	    background: linear-gradient(to left, #34a5b6, #2ec0bf);
+	}
+
+	.area-village .desctop-butt
+	{
+		display: none;
+	}
+
+}

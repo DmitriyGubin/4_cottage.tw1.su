@@ -1,0 +1,357 @@
+.button 
+{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(to left, #34a5b6, #2ec0bf);
+    border-radius: 10px;
+    border: none;
+    font-size: 26px;
+    color: white;
+}
+
+.nav_chain 
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px !important;
+	margin-bottom: 60px !important;
+}
+.nav_chain li
+{
+	list-style-type: none;
+	height: 25px;
+	display: flex;
+	align-items: center;
+}
+
+.nav_chain li a
+{
+	font-size: 21px;
+	color: #b9b9b9;
+}
+
+.nav_chain svg
+{
+	width: 20px;
+	height: 20px;
+	color: #b9b9b9;
+	/*display: block;*/
+	margin: 0 5px;
+}
+/************************/
+.about .main-title
+{
+	font-size: 32px;
+}
+
+.about .main-img
+{
+	/*height: 600px;*/
+	border-radius: 20px;
+	margin: 60px 0;
+}
+
+.about .main-img img
+{
+	width: 100%;
+	/*object-fit: cover;
+	object-position: 50% 50%;*/
+	border-radius: 20px;
+}
+
+.about .sub-title
+{
+	font-size: 30px;
+}
+
+.about .first-text
+{
+	font-size: 24px;
+	width: 100%;
+	max-width: 1320px;
+	margin: 30px 0 80px 0;
+}
+
+.about .video-box
+{
+	width: 100%;
+	max-width: 1220px;
+	padding-top: 42%;
+	background: green;
+	border-radius: 20px;
+	margin: 45px 0 55px 0;
+	position: relative;
+}
+
+/*пролодер*/
+.about .loader
+{
+    background: #1e1e1e;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.about .loader:after {
+    content: '';
+    width: 48px;
+    height: 48px;
+    border: solid 8px #fff;
+    border-left-color: transparent;
+    border-radius: 50%;
+    -webkit-animation: rotation 1s linear infinite;
+    animation: rotation 1s linear infinite;
+}
+
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform:rotate(0);
+                transform:rotate(0);
+    }
+    to {
+        -webkit-transform:rotate(359deg);
+                transform:rotate(359deg);
+    }
+}
+
+@keyframes rotation {
+    from {
+        -webkit-transform:rotate(0);
+                transform:rotate(0);
+    }
+    to {
+        -webkit-transform:rotate(359deg);
+                transform:rotate(359deg);
+    }
+}
+/*пролодер*/
+
+.about .second-text
+{
+	font-size: 24px;
+	width: 100%;
+	max-width: 1080px;
+	margin: 40px 0;
+	padding-left: 15px;
+}
+/**********************/
+.projects
+{
+	margin-bottom: 35px;
+}
+
+.projects .sub-title
+{
+	font-size: 30px;
+}
+
+.projects .proj-box
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 90px 0 90px 0;
+}
+
+.projects .proj-item
+{
+	width: calc(33.3% - 40px);
+	margin-bottom: 40px;
+	background: #ffffff;
+	border: 1px solid #efefef;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 20px;
+}
+
+.projects .proj-item img
+{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.projects .proj-item div
+{
+	text-align: center;
+}
+
+.projects .proj-item h3
+{
+	font-size: 30px;
+	margin: 45px 0;
+}
+
+.projects .proj-item h4
+{
+	font-size: 18px;
+	color: #33a9b8;
+}
+
+.projects .proj-item .descr
+{
+	font-size: 18px;
+	margin: 30px 0;
+}
+
+.projects .proj-item a
+{
+	width: 100%;
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+.projects .go-back
+{
+	width: 100%;
+	max-width: 290px;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************медиа-запросы****************/
+@media screen and (max-width: 1580px)
+{
+	.nav_chain li a
+	{
+		font-size: 16px;
+	}
+
+	.nav_chain svg
+	{
+		width: 15px;
+		height: 15px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.nav_chain
+	{
+		margin-bottom: 30px !important;
+	}
+
+	.nav_chain li a
+	{
+		font-size: 13px;
+	}
+}
+/**********************/
+
+@media screen and (max-width: 1580px)
+{
+	.about .first-text,
+	.about .second-text
+	{
+		font-size: 16px;
+		line-height: 25px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.about .main-title,
+	.about .sub-title
+	{
+		font-size: 24px;
+	}
+
+	.about .main-img,
+	.about .first-text,
+	.about .video-box,
+	.about .second-text
+	{
+		margin: 30px 0;
+	}
+}
+
+/***********************/
+@media screen and (max-width: 1580px)
+{
+	.projects .proj-item h4,
+	.projects .proj-item .descr
+	{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 1200px)
+{
+	.projects .proj-item 
+	{
+	    width: calc(50% - 40px);
+	}
+
+	.button
+	{
+		height: 50px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.projects .proj-item 
+	{
+	    width: 100%;
+	}
+
+	.projects .sub-title
+	{
+		font-size: 24px;
+	}
+
+	.projects .proj-box
+	{
+		margin: 30px 0;
+	}
+
+	.projects .proj-item
+	{
+		padding: 25px;
+	}
+
+	.projects .proj-item h3
+	{
+		margin: 20px 0;
+	}
+
+	.projects .go-back
+	{
+		margin: 0 auto;
+	}
+
+	.button
+	{
+		font-size: 20px;
+	}
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,402 @@
+.hide
+{
+    display: none !important;
+}
+
+.main_section_promotion {
+    margin-bottom: 50px;
+}
+
+.main_section_promotion h1 {
+    margin: 0 0 50px;
+    font-size: 32px;
+}
+
+.section_promotion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.promotion_element
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.promotion_element_text {
+    padding: 0 40px 0 40px;
+}
+
+.promotion_element_text p {
+    font-size: 21px;
+}
+
+.promotion_element_btn {
+    text-align: right;
+    padding: 20px 40px 40px 40px;
+}
+
+.promotion_element {
+    /*max-height: 680px;*/
+    width: calc(50% - 30px);
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.promotion_element_text_top {
+    margin: 30px 0;
+}
+
+.promotion_element_text_top .promotion_element_header {
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.promotion_element a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.promotion_element button {
+    width: 200px;
+    height: 70px;
+    background: linear-gradient(to left, #34a5b6, #2ec0bf);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 26px;
+    margin-top: auto;
+}
+
+.img-box
+{
+   height: 370px;
+   position: relative;
+   border-radius: 15px 15px 0 0;
+}
+
+.img-box img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 15px 15px 0 0;
+}
+
+.img-box .orange,
+.img-box .special-price
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-box .special-price
+{
+    align-items: center;
+}
+
+.img-box .special-price h2
+{
+    font-size: 60px;
+    color: #ffffff;
+    text-align: right;
+    margin-right: 45px;
+}
+
+.img-box .orange-box
+{
+    width: 48%;
+    background: #ff7200;
+    border-radius: 0 15px 0 0;
+}
+
+.img-box .main-title
+{
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.img-box .main-title span
+{
+    font-size: 40px;
+}
+
+.img-box .orange-box img
+{
+    width: 100%;
+    margin-top: 15px;
+    height: auto;
+}
+
+.img-box .orange-box .text
+{
+    width: 80%;
+    margin: 45px auto 25px auto;
+}
+
+.img-box .white-box
+{
+    background: #ffffff;
+    padding: 15px 45px;
+    border-radius: 20px;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+
+.img-box .new-price,
+.img-box .old-price
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.img-box .new-price span
+{
+    color: red;
+    font-size: 70px;
+}
+
+.img-box .new-price .value
+{
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+
+.img-box .old-price span
+{
+    color: black;
+    font-size: 40px;
+    text-decoration: line-through;
+}
+
+.img-box .old-price .value
+{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+/******************/
+.nav_chain 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px !important;
+    margin-bottom: 60px !important;
+}
+
+.nav_chain li
+{
+    list-style-type: none;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_chain li a
+{
+    font-size: 21px;
+    color: #b9b9b9;
+}
+
+.nav_chain svg
+{
+    width: 20px;
+    height: 20px;
+    color: #b9b9b9;
+    /*display: block;*/
+    margin: 0 5px;
+}
+
+/******Медиа запросы*********/
+@media screen and (max-width: 1580px)
+{
+    .promotion_element_text p
+    {
+        font-size: 16px;
+    }
+
+    .promotion_element_text_top .promotion_element_header
+    {
+        font-size: 24px;
+    }
+
+    .img-box .main-title
+    {
+        font-size: 24px;
+    }
+
+    .img-box .main-title span
+    {
+        font-size: 30px;
+    }
+
+    .img-box .new-price span
+    {
+        font-size: 50px;
+    }
+
+    .img-box .new-price .value
+    {
+        font-size: 18px;
+    }
+
+    .img-box .old-price span
+    {
+        font-size: 30px;
+    }
+
+    .img-box .old-price .value
+    {
+        font-size: 12px;
+    }
+
+    .img-box .special-price h2
+    {
+        font-size: 40px;
+    }
+
+    .promotion_element button 
+    {
+        height: 50px;
+        font-size: 20px; 
+    }
+
+    .img-box
+    {
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .img-box 
+    {
+        height: 300px;
+    }
+
+    .img-box .orange-box .text 
+    {
+        margin: 25px auto 25px auto;
+    }
+
+    .img-box .orange-box
+    {
+        width: 50%;
+    }
+
+    .img-box .white-box 
+    {
+        padding: 15px 15px;
+        border-radius: 10px;
+        margin-left: -10px;
+        margin-right: 10px;
+    }
+
+    .img-box .new-price span 
+    {
+        font-size: 33px;
+    }
+
+    .img-box .new-price .value 
+    {
+        font-size: 13px;
+    }
+
+    .promotion_element_text_top .promotion_element_header {
+    font-size: 20px;
+}
+    .promotion_element_text {
+    padding: 0 20px 0 20px;
+}
+
+    .promotion_element_text_top {
+    margin: 20px 0;
+}
+
+.promotion_element_btn {
+    padding: 20px;
+}
+
+    .img-box .special-price h2 {
+    font-size: 32px;
+}
+}
+
+@media screen and (max-width: 750px)
+{
+    .promotion_element
+    {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main_section_promotion h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+    .img-box
+    {
+        height: 250px;
+    }
+
+    .img-box .main-title,
+    .img-box .main-title span,
+    .promotion_element_text_top .promotion_element_header
+    {
+        font-size: 18px;
+    }
+
+    .promotion_element_btn 
+    {
+        text-align: center;
+    }
+
+    .img-box .special-price h2 
+    {
+        font-size: 28px;
+        margin-right: 20px;
+    }
+}
+
+/*******************/
+@media screen and (max-width: 1580px)
+{
+    .nav_chain li a
+    {
+        font-size: 16px;
+    }
+
+    .nav_chain svg
+    {
+        width: 15px;
+        height: 15px;
+    }
+}
+
+@media screen and (max-width: 750px)
+{
+    .nav_chain
+    {
+        margin-bottom: 30px !important;
+    }
+
+    .nav_chain li a
+    {
+        font-size: 12px;
+    }
+}

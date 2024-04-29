@@ -1,0 +1,705 @@
+.filter
+{
+	height: 550px;
+	margin-top: 10px;
+	position: relative;
+	border-radius: 20px;
+}
+
+.filter .fon-img
+{
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 20px;
+}
+
+.filter .filter-text
+{
+	width: 90%;
+	position: absolute;
+	left: 5%;
+	top: 110px;
+}
+
+.filter .filter-text h2
+{
+	font-size: 48px;
+	margin: 0 0 40px 0;
+	width: 40%;
+	color: #ffffff;
+}
+
+.filter .numbers
+{
+	display: flex;
+	margin-top: 35px;
+}
+
+.filter .numbers div
+{
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+}
+
+.filter .numbers div:first-child
+{
+	margin-right: 10px;
+}
+
+.filter .numbers div h3
+{
+	font-size: 80px;
+	margin: 0 15px 0 0;
+}
+
+.filter .numbers div p
+{
+	margin: 0px;
+	font-size: 23px;
+	width: 50%;
+}
+
+.filter form
+{
+	border-radius: 20px;
+	background: #ffffff;
+	padding: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.filter .first-sel
+{
+	width: 200px;
+	padding: 15px 15px 15px 30px;
+	margin-right: 40px;
+	font-size: 21px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	/*cursor: pointer;*/
+	border-radius: 20px 20px 0 0;
+}
+
+.filter .first-sel .this-variant
+{
+	cursor: pointer;
+	/*transition: color 0.3s ease;*/
+}
+
+@media screen and (min-width: 1000px)
+{
+	.filter .first-sel .this-variant:hover
+	{
+		color: #34a5b6;
+	}
+}
+
+@media screen and (min-width: 750px)
+{
+	.modify-select
+	{
+		border-left: 1px solid #34a5b6;
+		border-top: 1px solid #34a5b6;
+		border-right: 1px solid #34a5b6;
+	}
+}
+
+.filter .second-sel
+{
+	width: 300px;
+	padding: 0 10px 0 40px;
+	font-size: 21px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	cursor: pointer;
+}
+
+.filter .var-box-first,
+.filter .var-box-second
+{
+    position: absolute;
+    top: 100%;
+    left: -1px;
+    width: calc(100% + 2px);
+    background: white;
+    /*box-shadow: 0px 0px 15px 5px #f3f3f3;*/
+    z-index: 10;
+    /*margin-top: 15px;*/
+    border-radius: 0 0 20px 20px;
+    border: 1px solid #34a5b6;
+    border-top: none;
+    /*max-height: 160px;
+    overflow: auto;*/
+}
+
+.filter .var-box-first div,
+.filter .var-box-second div
+{
+    padding: 15px 30px;
+    cursor: pointer;
+    color: black;
+    font-size: 21px;
+}
+
+.filter .var-box-first div:last-child
+{
+	border-radius: 0 0 15px 15px;
+}
+
+.filter .var-box-first div:hover,
+.filter .var-box-second div:hover
+{
+	background: #34a5b6;
+    color: white;
+}
+
+.rotate-out 
+{
+    transform: rotate(90deg) !important;
+    transition: 0.3s;
+}
+
+.rotate-in 
+{
+    transform: rotate(270deg) !important;
+    transition: 0.3s;
+}
+
+.filter .price
+{
+	padding: 0 40px;
+	/*border-left: 1px solid #d0d0d0;*/
+	/*border-right: 1px solid #d0d0d0;*/
+}
+
+.filter .price input
+{
+	width: 175px;
+	height: 75px;
+	border-radius: 10px;
+	border: 1px solid #d0d0d0;
+	padding: 0 15px;
+	font-size: 21px;
+	text-align: center;
+}
+
+.filter .price span
+{
+	font-size: 21px;
+}
+
+.filter #price-from
+{
+	margin: 0 17px;
+}
+
+.filter #price-to
+{
+	margin: 0 0 0 17px;
+}
+
+.filter .redirect_butt
+{
+	width: 200px;
+	height: 60px;
+	border: 1px solid black;
+	font-size: 21px;
+
+	/*margin-left: auto;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	background: linear-gradient(to left, #34a5b6, #2ec0bf);
+	color: white;
+	border: none;
+	border-radius: 10px;
+}
+
+/*****************************/
+.options
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+
+.options .all-opt
+{
+	width: 49%;
+	border-radius: 20px;
+	background: #ffffff;
+	border: 1px solid #ececec;
+	padding: 20px;
+	margin-bottom: 25px;
+
+	display: flex;
+}
+
+.options .galka
+{
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+.options .opt-title
+{
+	font-size: 29px;
+	/*height: 50px;*/
+	margin: 10px 0 0 0;
+}
+
+.options .variants
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.options .variants div
+{
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.options .variants a,
+.options .variants span
+{
+	font-size: 21px;
+}
+
+.options .variants a
+{
+	text-decoration: none;
+	color: black;
+	margin-right: 20px;
+}
+
+.options .variants span
+{
+	color: #cccccc;
+}
+
+.options .area .variants div
+{
+	width: 100%;
+}
+
+.options .realty .realty-text p
+{
+	font-size: 20px;
+	margin: 30px 0 20px 0;
+}
+
+.options .realty .right-picture
+{
+	margin-bottom: -20px;
+}
+
+.options .realty .for-quiz
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 50px;
+	background: linear-gradient(to left, #34a5b6, #2ec0bf);
+	border-radius: 10px;
+	border: none;
+	font-size: 16px;
+	color: white;
+}
+
+.options .township .variants div
+{
+	width: 100%;
+}
+
+/*****************************/
+.popular-townships
+{
+	margin-top: 85px;
+}
+
+.popular-townships .title
+{
+	margin-bottom: 60px;
+}
+
+.popular-townships .popular-box-conteiner
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.popular-townships .popular-box
+{
+	width: 49%;
+	display: flex;
+	align-items: center;
+	border-radius: 20px;
+	padding: 5px 20px 0 55px;
+	margin-bottom: 25px;
+}
+
+.popular-townships .popular-box:nth-child(4n+1)
+{
+	background: #d5ecf3;
+}
+
+.popular-townships .popular-box:nth-child(4n+2)
+{
+	background: #f5f4f0;
+}
+
+.popular-townships .popular-box:nth-child(4n+3)
+{
+	background: #d6e4fe;
+}
+
+.popular-townships .popular-box:nth-child(4n+4)
+{
+	background: #d6ebca;
+}
+
+.popular-townships .popular-box h2
+{
+	font-size: 32px;
+	margin: 0px;
+}
+
+.popular-townships .popular-box p
+{
+	font-size: 18px;
+	margin: 25px 0;
+}
+
+.popular-townships .popular-villa-butt
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 155px;
+	height: 55px;
+	border-radius: 10px;
+	font-size: 20px;
+	background: #ffffff;
+	border: none;
+}
+
+.popular-townships .popular-box img
+{
+	width: 50%;
+}
+
+/*****************************/
+.popular-advt
+{
+	margin-top: 75px;
+}
+
+.popular-advt .title
+{
+	margin-bottom: 55px;
+}
+
+.popular-advt .popular-advt-box
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.popular-advt .popular-advt-box div
+{
+	width: 100%;
+	max-width: 400px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 85px 40px 0;
+}
+
+.popular-advt .popular-advt-box div a
+{
+	text-decoration: none;
+	font-size: 21px;
+	color: black;
+}
+
+.popular-advt .popular-advt-box div span
+{
+	font-size: 21px;
+	color: #cccccc;
+}
+
+/*********************/
+.best-offers
+{
+	margin-top: 130px;
+}
+
+.best-offers .title
+{
+	margin-bottom: 45px;
+}
+
+.best-offers .best-offers-box
+{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.best-offers .best-offers-item
+{
+	width: 32%;
+	text-decoration: none;
+	border-radius: 20px;
+	border: 1px solid #ededed;
+	background: #ffffff;
+	position: relative;
+	margin-bottom: 20px;
+	transition: transform 0.5s ease, opacity 0.5s ease;
+	/*transition: opacity 0.5s ease;*/
+}
+
+@media screen and (min-width: 1000px)
+{
+	.best-offers .best-offers-item:hover
+	{
+		transform: translateY(-20px);
+		opacity: 0.7;
+	}
+}
+
+.best-offers .img-box
+{
+	height: 340px;
+}
+
+.best-offers .img-box img
+{
+	width: 100%;
+	height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 20px 20px 0 0;
+}
+
+.best-offers .text-box
+{
+	padding: 35px;
+}
+
+.best-offers .text-box h2
+{
+	font-size: 24px;
+	margin: 0px;
+	color: black;
+}
+
+.best-offers .text-box h3
+{
+	font-size: 24px;
+	margin: 25px 0 40px 0;
+	color: #31b4bb;
+}
+
+.best-offers .text-box div
+{
+	display: flex;
+}
+
+.best-offers .text-box div img
+{
+	width: 20px;
+	height: 26px;
+	margin-right: 10px;
+}
+
+.best-offers .text-box div p
+{
+	font-size: 21px;
+	color: #707070;
+	margin: 0px;
+	width: 70%;
+}
+
+.best-offers .promotion
+{
+	position: absolute;
+	left: 0px;
+	top: 40px;
+	width: 224px;
+	padding: 15px;
+	background: #fbb358;
+	font-size: 21px;
+	border-radius: 0 10px 10px 0;
+	color: black;
+}
+
+.best-offers .none-promotion .promotion
+{
+	display: none;
+}
+/*******************/
+.ipoteka
+{
+	margin-top: 40px;
+}
+
+.ipoteka .title
+{
+	margin-bottom: 60px;
+}
+
+.ipoteka .ipoteka-box
+{
+	border-radius: 20px;
+	background: #fff2ed;
+	box-shadow: 0px 0px 25px 1px #d4d5d5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 35px 0px 75px;
+}
+
+.ipoteka .ipoteka-text
+{
+	width: 50%;
+}
+
+.ipoteka .ipoteka-text h2
+{
+	font-size: 40px;	
+	margin: 0px;
+}
+
+.ipoteka .ipoteka-text p
+{
+	font-size: 24px;
+	margin: 35px 0 35px 0;
+}
+
+.ipoteka .ipoteka-text button
+{
+	width: 200px;
+	height: 50px;
+	background: #fbb358;
+	border-radius: 30px;
+	border: none;
+	font-size: 20px;
+}
+
+.ipoteka .percent
+{
+	width: 40%;
+}
+/**********************/
+.better-condit
+{
+	margin-top: 70px;
+}
+
+.better-condit .title
+{
+	margin-bottom: 130px;
+}
+
+.better-condit .better-condit-box
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.better-condit .better-item
+{
+	width: 24%;
+	padding: 90px 50px;
+	box-shadow: 0px 0px 25px 1px #d4d5d5;
+	text-align: center;
+	border-radius: 20px;
+	position: relative;
+	font-size: 24px;
+}
+
+.better-condit .better-item img
+{
+	position: absolute;
+	top: -41px;
+	left: calc(50% - 42px);
+	width: 84px;
+	height: 82px;
+}
+/**********************/
+.market
+{
+	margin-top: 75px;
+	margin-bottom: 70px;
+}
+
+.market .title
+{
+	margin-bottom: 60px;
+}
+
+.market p
+{
+	font-size: 18px;
+	margin: 0px;
+}
+
+.market p:nth-child(3)
+{
+	margin: 30px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,272 @@
+/*********************/
+.nav_chain 
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.nav_chain li
+{
+	list-style-type: none;
+	height: 25px;
+	display: flex;
+	align-items: center;
+}
+
+.nav_chain li a
+{
+	font-size: 21px;
+	color: #b9b9b9;
+}
+
+.nav_chain svg
+{
+	width: 20px;
+	height: 20px;
+	color: #b9b9b9;
+	/*display: block;*/
+	margin: 0 5px;
+}
+/************************/
+.reiting .title
+{
+	font-size: 32px;
+}
+
+.reiting .descr
+{
+	font-size: 21px;
+	margin: 50px 0 60px 0;
+	width: 100%;
+	max-width: 1250px;
+}
+
+.reiting .villa-box
+{
+	background: #ffffff;
+	border: 1px solid #ececec;
+	display: flex;
+	/*align-items: center;*/
+	border-radius: 20px;
+	margin-bottom: 30px;
+	transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+@media screen and (min-width: 1000px)
+{
+	.reiting .villa-box:hover
+	{
+		transform: translateX(10px);
+		opacity: 0.7;
+	}
+}
+
+.reiting .text-box
+{
+	padding: 20px;
+	width: 65%;
+}
+
+.reiting .img-box
+{
+	width: 35%;
+	border-radius: 0 20px 20px 0;
+	/*height: 300px;*/
+}
+
+.reiting .img-box img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+	border-radius: 0 20px 20px 0;
+}
+
+.reiting .first-line
+{
+	display: flex;
+	align-items: center;
+}
+
+.reiting .squere
+{
+	font-size: 30px;
+	border: 1px solid #d2d2d2;
+	border-radius: 10px;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #d2d2d2;
+	margin-right: 25px;
+}
+
+.reiting span
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.reiting .villa-name
+{
+	font-size: 30px;
+}
+
+.reiting .first-line img
+{
+	width: 37px;
+	height: 14px;
+	margin-left: 15px;
+}
+
+.reiting .points
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5px 0 25px 0;
+}
+
+.reiting .points div
+{
+	padding: 15px 30px;
+	border: 1px solid #92d1d9;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.reiting .with span
+{
+	font-weight: normal;
+}
+
+.reiting .totall
+{
+	margin-right: 30px;
+}
+
+.reiting .totall span:first-child
+{
+	font-weight: bold;
+}
+
+.reiting .totall span:last-child
+{
+	font-weight: normal;
+}
+
+.reiting .search
+{
+	display: flex;
+	align-items: center;
+}
+
+.reiting .site
+{
+	width: 33px;
+	height: 33px;
+}
+
+.reiting .site.yandex
+{
+	width: 31px;
+	height: 31px;
+}
+
+.reiting .search span
+{
+	margin-left: 15px;
+	margin-right: 5px;
+}
+
+.reiting .star
+{
+	width: 25px;
+	height: 25px;
+}
+
+.reiting .points div
+{
+	margin-right: 20px;
+}
+
+.reiting .with
+{
+	display: flex;
+	font-size: 20px;
+	flex-wrap: wrap;
+}
+
+.reiting .with div
+{
+	margin: 20px 20px 0 0;
+	border-radius: 100px;
+	padding: 15px 30px;
+	box-shadow: 0px 0px 15px 5px #f3f3f3;
+	display: flex;
+	align-items: center;
+}
+
+.reiting .with div span:last-child
+{
+	color: #929292;
+	margin-left: 10px;
+}
+
+/*******добавить***/
+.show
+{
+	display: block !important;
+}
+
+.reiting .total-num
+{
+	position: relative;
+}
+
+.reiting .remark
+{
+	position: absolute;
+	top: -80px;
+	left: -25px;
+
+	font-size: 16px;
+	padding: 20px 0;
+    box-shadow: 0px 0px 15px 10px #d6d6d6;
+    border-radius: 10px;
+    width: 260px;
+    z-index: 10;
+    background: white;
+    text-align: center;
+}
+
+.reiting .for-triangle
+{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.reiting .triangle 
+{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-top: 20px solid white;
+} 
+
+
+
+
+
+
+
+

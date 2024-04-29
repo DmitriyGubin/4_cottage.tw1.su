@@ -1,0 +1,339 @@
+.area-box
+{
+	padding: 15px 40px 15px 15px;
+	border: 1px solid #ececec;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 20px;
+	background: #ffffff;
+	margin-bottom: 45px;
+}
+
+/*Слайдер*/
+
+.area-box .area-slider
+{
+	width: 40%;
+	height: 450px;
+	position: relative;
+  	overflow: hidden;
+	border-radius: 20px;
+}
+
+.area-box .area-slider img
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 20px;
+}
+
+.area-box .swiper-wrapper,
+.area-box .swiper-slide
+{
+	height: 100%;
+}
+
+.area-box .swiper-button-prev-photo,
+.area-box .swiper-button-next-photo
+{
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 56px;
+	height: 56px;
+	border-radius: 56px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.area-box .swiper-button-prev-photo svg,
+.area-box .swiper-button-next-photo svg
+{
+	width: 25px;
+	color: white;
+}
+
+.area-box .swiper-button-prev-photo,
+.area-box .swiper-button-next-photo
+{
+	position: absolute;
+	top: calc(50% - 23px);
+	z-index: 10;
+}
+
+.area-box .swiper-button-prev-photo
+{
+	left: 30px; 
+}
+
+.area-box .swiper-button-next-photo
+{
+	right: 30px;
+}
+
+/*Слайдер*/
+
+.area-box .right-text
+{
+	width: 57%;
+}
+
+.area-box .right-text h2
+{
+	font-size: 40px;
+	margin: 0px;
+}
+
+.area-box .img_text
+{
+	display: flex;
+	margin: 30px 0 50px 0;
+}
+
+.area-box .img_text div
+{
+	display: flex;
+	align-items: center;
+}
+
+.area-box .img_text div:first-child
+{
+	margin-right: 35px;
+}
+
+.area-box .img_text img
+{
+	width: 20px;
+	height: 26px;
+	margin-right: 10px;
+}
+
+.area-box .img_text div span
+{
+	color: black;
+	font-size: 21px;
+}
+
+.area-box .img_text div:first-child span
+{
+	color: #707070;
+}
+
+.area-box .option
+{
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+.area-box .price-button
+{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.area-box .price-button button
+{
+	width: 200px;
+	height: 65px;
+	font-size: 26px;
+	color: white;
+	border: none;
+	margin: 0 0 0 35px;
+	border-radius: 10px;
+	background: linear-gradient(to left, #34a5b6, #2ec0bf);
+}
+
+.area-box .price-button span
+{
+	font-size: 35px;
+	color: #33acb9;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1580px)
+{
+	.area-box .price-button button
+	{
+		font-size: 20px;
+	}
+
+	.area-box .img_text div span,
+	.area-box .option
+	{
+		font-size: 16px;
+	}
+
+	.area-box .right-text h2,
+	.area-box .price-button span
+	{
+		font-size: 25px;
+	}
+
+	.area-box .swiper-button-prev-photo 
+	{
+	    left: 10px;
+	}
+
+	.area-box .swiper-button-next-photo 
+	{
+	    right: 10px;
+	}
+}
+
+@media screen and (max-width: 1400px)
+{
+	.area-box .area-slider
+	{
+		height: 350px;
+	}
+}
+
+@media screen and (max-width: 1100px)
+{
+	.area-box .area-slider 
+	{
+	    height: 250px;
+	}
+
+	.area-box .img_text
+	{
+		margin: 20px 0 20px 0;
+	}
+
+	.area-box .price-button
+	{
+		margin-top: 10px;
+	}
+
+	.area-box .right-text h2,
+	.area-box .price-button span 
+	{
+	    font-size: 22px;
+	}
+
+	.area-box .price-button button
+	{
+		height: 55px;
+	}
+}
+
+@media screen and (max-width: 800px)
+{
+	.area-box .area-slider
+	{
+		width: 45%;
+	}
+
+	.area-box .right-text
+	{
+		width: 54%;
+	}
+
+	.area-box .swiper-button-prev-photo, 
+	.area-box .swiper-button-next-photo
+	{
+		width: 30px;
+		height: 30px;
+		top: calc(50% - 15px);
+	}
+
+	.area-box .swiper-button-prev-photo svg, 
+	.area-box .swiper-button-next-photo svg 
+	{
+	    width: 15px;
+	}
+}
+
+@media screen and (max-width: 750px)
+{
+	.area-box
+	{
+		flex-direction: column;
+	}
+
+	.area-box .area-slider
+	{
+		width: 100%;
+		height: 300px;
+	}
+
+	.area-box
+	{
+		padding: 0px;
+	}
+
+	.area-box .right-text
+	{
+		width: 100%;
+		padding: 30px 20px 20px 20px;
+	}
+
+	.area-box .img_text
+	{
+		flex-direction: column;
+	}
+
+	.area-box .img_text div:first-child img
+	{
+		width: 15px;
+		height: 20px;
+	}
+
+	.area-box .right-text h2
+	{
+		font-size: 18px;
+	}
+
+	.area-box .img_text div:last-child
+	{
+		margin-top: 20px;
+	}
+
+	.area-box .img_text div:last-child img
+	{
+		width: 18px;
+		height: 18px;
+	}
+
+	.area-box .price-button span {
+    font-size: 20px;
+}
+
+	.area-box .price-button button
+	{
+		font-size: 18px;
+	}
+
+	.area-box .price-button
+	{
+		flex-direction: column;
+		align-items: flex-start;
+		margin-top: 30px;
+	}
+
+	.area-box .price-button button
+	{
+		height: 50px;
+		margin: 20px 0 0 0;
+	}
+}

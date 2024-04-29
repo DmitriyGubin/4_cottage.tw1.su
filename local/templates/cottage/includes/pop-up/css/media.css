@@ -1,0 +1,99 @@
+/*Попап на заявку*/
+@media screen and (max-width: 1580px)
+{
+	.send_order #pop-up-title
+	{
+		font-size: 32px;
+	}
+
+	.send_order .upper-text,
+	.send_order input
+	{
+		font-size: 16px;
+	}
+
+	.send_order button
+	{
+		font-size: 20px;
+	}
+
+	.send_order .below_input_text
+	{
+		font-size: 14px;
+	}
+
+	.send_order .pop-up-form
+	{
+		max-width: 500px;
+	}
+
+	.send_order .upper-text 
+	{
+	    margin: 15px auto 25px auto;
+	}
+
+	.send_order input,
+	.send_order button
+	{
+		height: 50px;
+	}
+
+	.send_order .below_input_text
+	{
+	    margin: 30px auto 0 auto;
+	    width: 100%;
+	}
+
+	.send_order .pop-up-form
+	{
+		padding: 50px 50px;
+	}
+
+	.send_order #close 
+	{
+	    font-size: 20px;
+	    right: 30px;
+	    top: 15px;
+	}
+
+	.send_order .pop-up-form
+	{
+		border-radius: 10px;
+	}
+
+	.send_order #pop-up-title
+	{
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 510px)
+{
+	.send_order .pop-up-form
+	{
+		width: 90%;
+		padding: 30px;
+	}
+
+	.send_order .upper-text
+	{
+		width: 100%;
+	}
+
+	.send_order .upper-text,
+	.send_order input
+	{
+		margin-bottom: 20px;
+	}
+
+	.send_order .below_input_text
+	{
+		margin-top: 20px;
+	}
+
+	.send_order #close 
+	{
+	    right: 20px;
+	    top: 10px;
+	}
+}
